@@ -1,5 +1,5 @@
 public class Title {
-     private String name;
+    private String name;
     private int year;
     private boolean includedOnPlan;
     private double assessment;

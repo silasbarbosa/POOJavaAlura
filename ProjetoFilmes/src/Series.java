@@ -32,4 +32,10 @@ public class Series extends Title{
     }
 
 
+    @Override
+    public int getDurationInMinutes(){
+        return seasons* epSeason* minutesEpisode;
+    }
+
+
 }
